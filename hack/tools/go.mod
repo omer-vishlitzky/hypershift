@@ -115,3 +115,5 @@ replace sigs.k8s.io/controller-tools => github.com/openshift/controller-tools v0
 // Pin current version of k8s.io/code-generator to avoid cascade breaking changes coming from 0.31.1
 // TODO(alberto): bump k8s version across the board.
 replace k8s.io/code-generator => k8s.io/code-generator v0.30.1
+
+replace github.com/golang-jwt/jwt/v4 => github.com/golang-jwt/jwt/v5 v5.2.2
